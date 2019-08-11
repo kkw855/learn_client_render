@@ -1,6 +1,6 @@
-import React from 'react'
-import ReactDom from 'react-dom'
-import LikeButton from './LikeButton'
+import React from "react";
+import ReactDom from "react-dom";
+import LikeButton from "./LikeButton";
 
 function Container() {
   return (
@@ -8,8 +8,8 @@ function Container() {
       <LikeButton />
       <LikeButton />
     </div>
-  )
+  );
 }
 
-const domContainer = document.querySelector("#react-root")
-ReactDom.render(<Container />, domContainer)
+const domContainer = document.querySelector("#react-root");
+ReactDom.render(<Container />, domContainer);
